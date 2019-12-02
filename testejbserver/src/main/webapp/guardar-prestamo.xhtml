@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:rich="http://richfaces.org/rich"> 
+
+<h:head></h:head> 
+<body> 
+
+	<h:form>
+	<h:inputText value="Calewwndariow" />
+	
+	<rich:calendar id="givenDate" name="givenDate"
+   	 	enableManualInput="true"
+    	inputStyle="width:60px"
+    	datePattern="MM/dd/yyyy" 
+    	immediate = "true" required="true"
+    	requiredMessage="#{msg.requiredmsg}" popup="true" />
+		<rich:calendar>
+		</rich:calendar>
+	</h:form>
+	
+</body> 
+</html>
